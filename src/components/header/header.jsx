@@ -15,27 +15,27 @@ export default function Header() {
                                     Прямой эфир
                                 </a>
                             </li>
-                            <li className="menu_item">
+                            <li className="menu_i">
                                 <a href="#" className="menu_item">
                                     Работа в додо
                                 </a>
                             </li>
-                            <li className="menu_item">
+                            <li className="menu_i">
                                 <a href="#" className="menu_item">
                                     О нас
                                 </a>
                             </li>
-                            <li className="menu_item">
+                            <li className="menu_i">
                                 <a href="#" className="menu_item">
-                                    Контактыы
+                                    Контакты
                                 </a>
                             </li>
-                            <li className="menu_item">
+                            <li className="menu_i">
                                 <a href="#" className="menu_item">
                                     Корпоративные заказы
                                 </a>
                             </li>
-                            <li className="menu_item">
+                            <li className="menu_i">
                                 <a href="#" className="menu_item">
                                     Подарочные сертификаты
                                 </a>
@@ -72,8 +72,8 @@ export default function Header() {
                             </div>
                         </div>
                         <div className="right">
-                            <a href="#" className="loyal_program">
-                                <img src={dodocoin} alt="Img" />
+                            <a href="#" className="loyal_program ">
+                                <img src={dodocoin} alt="Img" className='coinIcon'/>
                                 <span>Додокоины</span>
                             </a>
                             <button type="button" className='login_btn'>Войти</button>
